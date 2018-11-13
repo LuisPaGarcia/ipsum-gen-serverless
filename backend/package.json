@@ -1,0 +1,10 @@
+{
+  "name": "ipsum-gen",
+  "version": "0.0.1",
+  "description": "This is an example how to generate a Ipsum generator",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "lorem-ipsum": "^1.0.6"
+  }
+}
