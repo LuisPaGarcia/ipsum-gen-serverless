@@ -9,6 +9,9 @@
 </head>
 <body>
         <div class="ui container" id="app">
+            <img style="width: 100%;" src="https://s3-us-west-2.amazonaws.com/assets.blog.serverless.com/serverless-no-server-november.png" alt="banner">
+            <br>
+            <h3><a href="https://github.com/LuisPaGarcia/ipsum-gen-serverless">Github Repo</a></h3>
             <h2 class="ui center aligned icon header">
                 {{title}}
             </h2>
@@ -18,11 +21,14 @@
             <div v-if="loading">
                 <h2>Loading...</h2>
             </div>
-            <div v-else>
+            <div v-else style="height: 500px">
                 <h4>{{result}}</h4>
             </div>
+            <br>
+            <br>
+            <br>
               </div>
-      
+              
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
       <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
